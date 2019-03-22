@@ -16,7 +16,6 @@ s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
 s.dependency "TMUserCenter"
 s.dependency "TMPaySDK"
-s.dependency "SDCycleScrollView"
 s.dependency "DZNEmptyDataSet"
 s.dependency "Toast"
 s.dependency "MBProgressHUD"
