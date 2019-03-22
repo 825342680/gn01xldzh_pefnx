@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "gn01xldzh_pefnxFramework", "gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework/*.{h,m}"
+  s.source_files  = "gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -104,7 +104,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle"
+  s.resources = "gn01xldzh_pefnxFramework/resource/gn01xldzh_pefnx.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
@@ -138,6 +138,6 @@ Pod::Spec.new do |s|
   s.dependency "Toast"
   s.dependency "MBProgressHUD"
 
-  s.vendored_frameworks = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework.framework'
+  s.vendored_frameworks = 'gn01xldzh_pefnxFramework/lib/gn01xldzh_pefnxFramework.framework'
 
 end
