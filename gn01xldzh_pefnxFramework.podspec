@@ -14,7 +14,7 @@ s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
 s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{js,xml,plist}'
 s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
-s.dependency "TMUserCenter"
+s.dependency "TMPaySDK"
 
 
 end
