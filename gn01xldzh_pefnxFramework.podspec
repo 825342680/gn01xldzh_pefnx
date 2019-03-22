@@ -12,6 +12,13 @@ s.requires_arc = true
 s.ios.deployment_target = '9.0'
 s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
 s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{js,xml,plist}'
+s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
+s.dependency "TMUserCenter"
+s.dependency "TMPaySDK"
+s.dependency "SDCycleScrollView"
+s.dependency "DZNEmptyDataSet"
+s.dependency "Toast"
+s.dependency "MBProgressHUD"
 
 end
