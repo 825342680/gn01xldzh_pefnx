@@ -14,26 +14,13 @@ s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
 s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{js,xml,plist}'
 s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
+s.xcconfig = {
+'VALID_ARCHS' =>  'arm64 x86_64',
+}
+
 s.dependency "DZNEmptyDataSet"
 s.dependency "Toast"
 s.dependency "MBProgressHUD"
-
-s.dependency "AFNetworking"
-s.dependency "AlipaySDK-iOS"
-s.dependency "IQKeyboardManager"
-s.dependency "JCore"
-s.dependency "JPush"
-s.dependency "Masonry"
-s.dependency "MJRefresh"
-s.dependency "mob_sharesdk"
-s.dependency "MOBFoundation"
-s.dependency "SDCycleScrollView"
-s.dependency "SDWebImage"
-s.dependency "SVProgressHUD"
-s.dependency "TMPaySDK"
-s.dependency "TMSDK"
-s.dependency "TMShare"
-s.dependency "Toast"
-s.dependency "TYAttributedLabel"
 s.dependency "TMUserCenter"
+s.dependency "TMPaySDK"
 end
