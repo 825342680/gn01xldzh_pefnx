@@ -10,7 +10,7 @@ s.authors = { '朱跃龙' => '825342680@qq.com' }
 s.source = { :git => 'https://github.com/825342680/gn01xldzh_pefnxFramework.git', :tag => s.version.to_s }
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
-s.source_files = 'gn01xldzh_pefnxFramework/*.{h,m}'
+s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
 s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{js,xml,plist}'
 s.dependency "TMUserCenter"
 s.dependency "TMPaySDK"
