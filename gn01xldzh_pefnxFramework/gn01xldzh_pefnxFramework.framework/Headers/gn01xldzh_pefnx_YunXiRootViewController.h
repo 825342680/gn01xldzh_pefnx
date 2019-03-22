@@ -7,7 +7,7 @@
 //
 
 
-#import <UIKit/UIKit.h>
+#import <TMSDK/TMSDK.h>
 
 @interface gn01xldzh_pefnx_YunXiRootViewController : TMViewController
 
