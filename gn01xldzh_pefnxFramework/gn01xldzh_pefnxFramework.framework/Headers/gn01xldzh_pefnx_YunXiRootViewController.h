@@ -6,7 +6,8 @@
 //  Copyright © 2019年 Tianma. All rights reserved.
 //
 
-#import <TMSDK/TMSDK.h>
+
+#import <UIKit/UIKit.h>
 
 @interface gn01xldzh_pefnx_YunXiRootViewController : TMViewController
 
