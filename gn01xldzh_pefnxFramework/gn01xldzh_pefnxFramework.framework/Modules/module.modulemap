@@ -1,0 +1,6 @@
+framework module gn01xldzh_pefnxFramework {
+  umbrella header "gn01xldzh_pefnxFramework.h"
+
+  export *
+  module * { export * }
+}
