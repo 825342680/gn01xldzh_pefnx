@@ -15,6 +15,7 @@ s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnx
 s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
 s.dependency "DZNEmptyDataSet"
-
+s.dependency "Toast"
+s.dependency "MBProgressHUD"
 
 end
