@@ -14,7 +14,7 @@ s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
 s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{xml,plist}','gn01xldzh_pefnxFramework/config/exec/*.js','gn01xldzh_pefnxFramework/config/pages/comp01/*.html'
 
 s.public_header_files = 'gn01xldzh_pefnxFramework/**/*.h'
-s.vendored_frameworks = 'gn01xldzh_pefnxFramework.framework'
+s.vendored_frameworks = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnxFramework.framework'
 
 s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
