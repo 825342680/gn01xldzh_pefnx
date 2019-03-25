@@ -2,16 +2,19 @@
 Pod::Spec.new do |s|
 
 s.name = 'gn01xldzh_pefnxSDK'
-s.version = '1.0.0'
+s.version = '1.0.1'
 s.license = 'MIT'
 s.summary = 'An Animate Water view on iOS.'
 s.homepage = 'https://github.com/825342680/gn01xldzh_pefnxFramework'
 s.authors = { '朱跃龙' => '825342680@qq.com' }
-s.source = { :git => 'https://github.com/825342680/gn01xldzh_pefnxFramework.git', :tag => '1.0.0' }
+s.source = { :git => 'https://github.com/825342680/gn01xldzh_pefnxFramework.git', :tag => '1.0.1' }
 s.requires_arc = true
 s.ios.deployment_target = '9.0'
 s.source_files = 'gn01xldzh_pefnxFramework/**/*.{h,m}'
-s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{js,xml,plist}'
+s.resources = 'gn01xldzh_pefnxFramework/gn01xldzh_pefnx.bundle','gn01xldzh_pefnxFramework/config/*.{xml,plist}','gn01xldzh_pefnxFramework/config/exec/*.js','gn01xldzh_pefnxFramework/config/pages/comp01/*.html'
+
+s.public_header_files = 'gn01xldzh_pefnxFramework/**/*.h'
+
 s.frameworks   = 'UIKit','AVFoundation','Foundation'
 
 s.xcconfig = {
