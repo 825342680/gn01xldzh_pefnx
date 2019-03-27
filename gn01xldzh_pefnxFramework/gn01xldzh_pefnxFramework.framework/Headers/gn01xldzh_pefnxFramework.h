@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "gn01xldzh_pefnx_YunXiRootViewController.h"
+#import "gn01xldzh_pefnx_XinLangRootViewController.h"
 
 //! Project version number for gn01xldzh_pefnxFramework.
 FOUNDATION_EXPORT double gn01xldzh_pefnxFrameworkVersionNumber;
