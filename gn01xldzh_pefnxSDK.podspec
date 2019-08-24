@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name = 'gn01xldzh_pefnxSDK'
-s.version = '1.2.3'
+s.version = '1.2.4'
 s.license = 'MIT'
 s.summary = 'An Animate Water view on iOS.'
 s.homepage = 'https://github.com/825342680/gn01xldzh_pefnxFramework'
